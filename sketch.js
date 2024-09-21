@@ -4,6 +4,7 @@ function setup() {
 
 function draw() {
   background(400)
+  stroke(0)
   
   fill(143,201,141)
   rect(0,400,600,300)
@@ -11,10 +12,12 @@ function draw() {
   fill(108,173,169)
   rect(0,0,600,400)
   
+  noStroke(0)
   fill(255,228,120)
   circle(470,70,120)
 
   fill(0)
+  stroke(250)
   rect(330,130,3,20)
   rect(338,130,3,20)
   rect(325,130,6,5)
@@ -22,6 +25,7 @@ function draw() {
   rect(343,120,3,10)
   rect(330,120,3,10)
   
+  stroke(0)
   fill(115,48,38)
   rect(330,170,10,30)
   
@@ -51,3 +55,4 @@ function draw() {
  
   
 }
+
